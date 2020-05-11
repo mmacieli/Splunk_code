@@ -1,4 +1,5 @@
-write-host "$computer_name CPU LOAD:$cpu_load"
+#original code located at following url
+#https://answers.splunk.com/answers/373010/powershell-sample-for-http-event-collector.html
 
 $response = ""
  $formatteddate = "{0:MM/dd/yyyy hh:mm:sstt zzz}" -f (Get-Date)
